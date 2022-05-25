@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono:wght@500&family=Russo+One&display=swap');
+body {
+    margin: 0px auto;
+    background-image: url("/images/horizont.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.container {
+    margin:0px;
+    padding: 15px 25px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+.section {
+    background-color: rgb(199, 239, 203, 0.4);
+    margin:0px;
+    border:1px solid rgb(0, 170, 94);
+    padding:5px 25px;
+}
+.section p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 200px;
+}
+
+img {
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 30px;
+    color:rgb(58, 109, 80);
+    text-align:center;
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(50, 46, 46);
+}
+
+p {
+    margin: 5px 5px 10px 5px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(93, 80, 64);
+}
+
+input	{
+    font:normal 12pt helvetica;
+    color:#000;
+    margin:20px 5px;
+    background-color: rgb(143, 195, 172);
+    border-radius: 5px;
+    padding:5px 10px;
+    text-align: right;
+
+
+}
+
+input:focus	{
+   outline: none;
+   background-color: #FFF;
+}
+label	{
+    font:bold 14pt helvetica;
+    color:#000;
+
+}
+button{
+    font-size: large;
+    padding:7px;
+    margin:20px 5px;
+    border-radius: 7px;
+    color: blueviolet;
+    background-color: rgb(181, 166, 181);
+    border-color: rgb(83, 83, 128);
+}
+button:hover{
+    background-color: rgb(164, 134, 134);
+    font-weight: 600;
+    color: white;
+}
+
+
+
+

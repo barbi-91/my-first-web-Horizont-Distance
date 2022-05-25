@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Distance to the Horizont Calculator</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Distance to the Horizon Calculator</h1>
+        <p>Distance of the horizon based on the observer's height above mean sea level.</p>
+
+        <input type="text" id="hgt" value="" size="5"><label for="hgt">Observation Height</label>
+        <input type="radio" id="r1" name="measure" checked=""><label for="r1"> in Metres</label>
+        <input type="radio" id="r2" name="measure"><label for="r2"> in Feet</label><br>
+        <button type="button" onclick="Calc()">Calculate Distance</button>
+
+        <p id="dist" style="background-color: #F0F9F5; color:#000000;">Enter the Height, set for Metres / Feet then click the Calculate button.</p>
+        <!-- <p id="dist">
+            <span id="messageText" style="background-color: #F0F9F5; color:#000000">Enter the Height, set for Metres / Feet then click the Calculate button.</span>
+        </p> -->
+    
+        <section class="section">
+            <h2>The Mathematics behind this Calculation</h2>
+            <img src="/images/horiz.gif" alt="Diagram"></img>
+            <p>This calculation should be taken as a guide only as it assumes the earth is a perfect ball 6378137 metres radius. It also assumes the horizon you are looking at is at sea level. A triangle is formed with the centre of the earth (C) as one point, the horizon point (H) is a right angle and the observer (O) the third corner. Using Pythagoras's theorem we can calculate the distance from the observer to the horizon (OH) knowing CH is the earth's radius (r) and CO is the earth's radius (r) plus observer's height (v) above sea level.</p>
+        
+            <p style="clear:both;">&nbsp;</p>
+        </section>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html> 
