@@ -13,9 +13,10 @@
         <h1>Distance to the Horizon Calculator</h1>
         <p>Distance of the horizon based on the observer's height above mean sea level.</p>
 
-        <input type="text" id="hgt" value="" size="5"><label for="hgt">Observation Height</label>
-        <input type="radio" id="r1" name="measure" checked=""><label for="r1"> in Metres</label>
-        <input type="radio" id="r2" name="measure"><label for="r2"> in Feet</label><br>
+        <input type="text" id="hgt" value="" size="8" placeholder="Enter height"><label for="hgt">Observation Height</label>
+        <input type="radio" id="r1" name="measure" checked="checked" onclick="unitHandler()
+        "><label for="r1"> in Metres</label>
+        <input type="radio" id="r2" name="measure" onclick="unitHandler()" ><label for="r2"> in Feet</label><br>
         <button type="button" onclick="Calc()">Calculate Distance</button>
 
         <p id="dist" style="background-color: #F0F9F5; color:#000000;">Enter the Height, set for Metres / Feet then click the Calculate button.</p>

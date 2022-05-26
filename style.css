@@ -59,12 +59,13 @@ input	{
     font:normal 12pt helvetica;
     color:#000;
     margin:20px 5px;
-    background-color: rgb(143, 195, 172);
+    background-color: rgb(179, 202, 192);
     border-radius: 5px;
     padding:5px 10px;
     text-align: right;
-
-
+}
+#dist {
+    font-size: 20px;
 }
 
 input:focus	{
